@@ -8,7 +8,7 @@ public class home_page{
     public void home_page01() throws InterruptedException
     
 {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Liya.ms\\Downloads\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:/Users/mahalakshmi.tm/Downloads/chromedriver_win32/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://mobileworld.banyanpro.com/");   
         Thread.sleep(1000);
